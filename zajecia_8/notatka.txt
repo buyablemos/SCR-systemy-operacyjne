@@ -1,0 +1,21 @@
+zadanie 1
+
+a) Nie sa tworzone naraz, w sensie nie ma zadnej synchronizacji i na przemiennie jest wypisywanie i 
+tworzenie watkow.
+
+b) Kolejnosci ciagle sie zmieniaja, czasami zdazy sie utwozryc kilka watkow przed zaczeciem wypisywania.
+
+c)braklo pthread join i nie czekalo na watki
+
+
+d)Zmniejszenie liczby iteracji nic nie zmienilo. Bariera ladnie synchronizuje kod obliczenia. Jednakze nie sa pozniej wypisywanie
+po kolei.
+
+zadanie 2
+
+w bug3.c musialem zmienic sposob przekazywania danych i wzialem ten z hello_arg1.c
+
+
+zadanie 3
+Suma 10000 liczb pierwszych to: 496165411
+
